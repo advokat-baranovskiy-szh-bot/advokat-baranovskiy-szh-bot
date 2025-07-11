@@ -1,15 +1,12 @@
 # SZH Telegram Bot
 
-This is a private bot for managing communications with military personnel regarding unauthorized leave (СЗЧ).
+Цей бот створений для автоматизації обробки звернень у справах про самовільне залишення частини (СЗЧ). Реалізований на Python з використанням бібліотеки `python-telegram-bot`.
 
-## Files
+---
 
-- `bot.py` – the main bot logic
-- `requirements.txt` – list of required libraries
-- `.env.example` – environment variable template
+## ⚙️ Встановлення
 
-## Quick start (in Codespaces)
-
-1. Copy `.env.example` to `.env` and add your `TELEGRAM_TOKEN`.
-2. Run `pip install -r requirements.txt`
-3. Run `python bot.py`
+```bash
+git clone https://github.com/advokat-baranovskiy/advokat-baranovskiy-szh-bot.git
+cd advokat-baranovskiy-szh-bot
+pip install -r requirements.txt
